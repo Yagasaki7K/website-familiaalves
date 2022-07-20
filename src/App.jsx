@@ -20,7 +20,7 @@ function App() {
 
                 <h2>Identidade Visual</h2>
                 <p>
-                    Eis o significado do brasão da Família Alves e todos os seus detalhes: A começar pelas coroas que representam o Rei - Pompílio e a Rainha - Lourdes.
+                    Eis o significado do brasão da <strong>Família Alves</strong> e todos os seus detalhes: A começar pelas coroas que representam o Rei - <strong>Pompílio</strong> e a Rainha - <strong>Lourdes</strong>.
                 </p>
 
                 <p>
@@ -49,7 +49,7 @@ function App() {
 
                 <p>
                     Ao lado inferior esquerdo temos a união dos materiais de bombeiro, um simbolo de
-                    salvação que não só ajudou Pompílio, como sendo sua principal profissão, como
+                    salvação que não só ajudou <strong>Pompílio</strong>, como sendo sua principal profissão, como
                     juntou vários de seus filhos na profissão de militar, desde bombeiros, membros
                     do Exército e membros da Polícia Militar que fazem parte da família até os dias de hoje.
                 </p>
@@ -62,12 +62,12 @@ function App() {
                 </p>
                 
                 <p>
-                    Ao nome escrito abaixo do brasão, uma frase em que a Lourdes sempre dizia quando chegava
-                    a um terreno novo ou a uma conquistava: Ebenézer (אבנעזר), que tem o significado de: Até aqui nos ajudou o Senhor", mas se manteve no simbolo da família em hebraico.
+                    Ao nome escrito abaixo do brasão, uma frase em que a <strong>Lourdes</strong> sempre dizia quando chegava
+                    a um terreno novo ou a uma conquistava: <strong>Ebenézer (אבנעזר)</strong>, que tem o significado de: Até aqui nos ajudou o Senhor", mas se manteve no simbolo da família em hebraico.
                 </p>
 
                 <p>
-                    Abaixo de Ebenézer, existe as atuais quatro estrelas, representando as quatro gerações da Família Alves que veio após o Pompílio, sendo a primeira seus filhos, a segunda seus netos,
+                    Abaixo de Ebenézer, existe as atuais quatro estrelas, representando as quatro gerações da <strong>Família Alves</strong> que veio após o <strong>Pompílio</strong>, sendo a primeira seus filhos, a segunda seus netos,
                     a terceira seus bisnetos e a quarta, sendo seus tataranetos, atualmente é a última geração da família.
                 </p>
 
