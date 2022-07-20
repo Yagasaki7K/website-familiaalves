@@ -2,13 +2,14 @@ import { useState } from 'react'
 import './App.css'
 
 import HomeDetails from '../src/components/HomeDetails'
+import Brasao from '/src/assets/logo.png'
 
 function App() {
 
     return (
         <div className="App">
             <HomeDetails>
-                <img src="/src/assets/logo.png" alt="logo" />
+                <img src={Brasao} alt="logo" />
                 <ul>
                     <li><a href="/">Início</a></li>
                     <li><a href="/arvore">Árvore Genealógica</a></li>
