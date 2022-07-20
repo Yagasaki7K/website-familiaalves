@@ -35,9 +35,42 @@ const HomeDetails = styled.div`
         }
     }
 
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-left: 2rem;
+
+        @media (max-width: 414px) {
+            margin-left: 1.5rem;
+            display: block;
+            margin-top: -1rem;
+        }
+
+        li {
+            margin-right: 1rem;
+            text-decoration: underline;
+            cursor: pointer;
+            margin-bottom: 1rem;
+
+            a {
+                color: #1A1A1A;
+
+                :hover {
+                    transition: 0.5s;
+                    color: #1784fe;
+                }
+            }
+        }
+    }
+
     .title {
         margin-bottom: 2rem;
         text-transform: uppercase;
+    }
+
+    p {
+        margin-bottom: 1rem;
     }
 `
 
