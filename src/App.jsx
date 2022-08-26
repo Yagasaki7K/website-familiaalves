@@ -1,23 +1,14 @@
-import { useState } from 'react'
 import './App.css'
 
 import HomeDetails from '../src/components/HomeDetails'
-import Brasao from '/src/assets/logo.png'
+import Navigation from './components/Navigation'
 
 function App() {
 
     return (
         <div className="App">
+            <Navigation/>
             <HomeDetails>
-                <img src={Brasao} alt="logo" />
-                <ul>
-                    <li><a href="/">Início</a></li>
-                    <li><a href="/arvore">Árvore Genealógica</a></li>
-                    <li><a href="/historia">História de Pompílio e Lourdes</a></li>
-                </ul>
-
-                <h1 className="title">Família Alves</h1>
-
                 <h2>Identidade Visual</h2>
                 <p>
                     Eis o significado do brasão da <strong>Família Alves</strong> e todos os seus detalhes: A começar pelas coroas que representam o Rei - <strong>Pompílio</strong> e a Rainha - <strong>Lourdes</strong>.
@@ -74,6 +65,9 @@ function App() {
                 <p>
                     As cores azul e branco representam tanto a bandeira da cidade de Campinas, uma das primeiras cidades onde a família se hospedou e também representa a bandeira do Estado de Mato Grosso, aonde boa parte da família também se cultivou e vive até os dias de hoje.
                 </p>
+
+                <a href="./src/assets/ebenezer.png" download>Download Brasão (Ebenézer)</a> - &nbsp;
+                <a href="./src/assets/alves.png" download>Download Brasão (Alves)</a>
             </HomeDetails>
         </div>
     )

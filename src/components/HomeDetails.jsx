@@ -69,8 +69,81 @@ const HomeDetails = styled.div`
         text-transform: uppercase;
     }
 
+    .subtitle {
+        margin-top: -2rem;
+        margin-bottom: 2rem;
+    }
+
     p {
         margin-bottom: 1rem;
+    }
+
+    hr {
+        border: 0.1px solid #504f4f;
+        width: 50%;
+        margin: 2rem 0rem 2rem 20rem;
+    }
+
+    .info {
+        margin-top: 1rem;
+    }
+
+    .familytree {
+        margin-left: -2.5rem;
+
+        h2 {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+
+        ul {
+            display: flex;
+            margin-bottom: 1rem;
+
+            .death {
+                background: #7e7e7e;
+
+                :hover {
+                    background: #504f4f;
+                    transition: 1s;
+                }
+            }
+        
+            a {
+                color: #e5e5e5;
+                background: #1784fe;
+
+                :hover {
+                    background: #054fa5;
+                    transition: 1s;
+                }
+            }
+            
+            a, li {
+                text-decoration: none;
+                margin-left: 1rem;
+                width: 100px;
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 15px;
+                padding: 5px;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+        }
+    }
+
+    .container {
+        max-width: 400px;
+        margin-left: 26rem;
+
+        .row {
+            margin-top: 1rem;
+        }
     }
 `
 
