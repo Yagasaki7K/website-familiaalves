@@ -12,3 +12,16 @@ body {
     background: #DDD0C7;
     color: #1a1a1a;
 }
+
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-track {
+    background: #DDD0C7;        /* color of the tracking area */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: #1a1a1a;
+    border-radius: 20px;
+}
