@@ -52,7 +52,7 @@ function Arvore() {
                 {
                     show === 'Andrea' ? <div className="container">
                     <h2>Andréa Ribeiro Alves Bonfim</h2>
-                    <h3>Cônjuge: XXXXXXXX</h3>
+                    <h3>Cônjuge: Valdir Alves Bonfim</h3>
                     <h4>☆ xx/xx/xx ({new Date().getFullYear() - 1959} anos)</h4>
                     {/* <h4>✝ xx/xx/xx ({new Date().getFullYear() - 1959} anos)</h4> */}
                     
@@ -136,8 +136,8 @@ function Arvore() {
 
                 {
                     show === 'Ivonete' ? <div className="container">
-                    <h2>Ivonete Aparecida Alves da Costa</h2>
-                    <h3>Cônjuge: Alfredo Alves da Costa</h3>
+                    <h2>Ivonete Aparecida Alves Costa</h2>
+                    <h3>Cônjuge: Alfredo Alves Costa</h3>
                     <h4>☆ 15/07/1970 ({new Date().getFullYear() - 1970} anos)</h4>
                     {/* <h4>✝ xx/xx/xx ({new Date().getFullYear() - 1959} anos)</h4> */}
                     
@@ -263,7 +263,7 @@ function Arvore() {
                 {
                     show === 'Raquel' ? <div className="container">
                     <h2>Raquel Alves dos Santos</h2>
-                    <h3>Cônjuge: XXXXXXXX</h3>
+                    {/* <h3>Cônjuge: XXXXXXXX</h3> */}
                     <h4>☆ 11/11/1955 ({new Date().getFullYear() - 1955} anos)</h4>
                     {/* <h4>✝ xx/xx/xx ({new Date().getFullYear() - 1959} anos)</h4> */}
                     
