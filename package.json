@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "vercel": "vite build",
     "preview": "vite preview",
     "yagasaki": "yarn upgrade-interactive --latest"
   },
